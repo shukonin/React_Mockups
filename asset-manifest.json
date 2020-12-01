@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React_Mockups/static/css/main.b8c54b53.chunk.css",
+    "main.js": "/React_Mockups/static/js/main.d5fbb9da.chunk.js",
+    "main.js.map": "/React_Mockups/static/js/main.d5fbb9da.chunk.js.map",
+    "runtime-main.js": "/React_Mockups/static/js/runtime-main.c85de42a.js",
+    "runtime-main.js.map": "/React_Mockups/static/js/runtime-main.c85de42a.js.map",
+    "static/js/2.05667297.chunk.js": "/React_Mockups/static/js/2.05667297.chunk.js",
+    "static/js/2.05667297.chunk.js.map": "/React_Mockups/static/js/2.05667297.chunk.js.map",
+    "index.html": "/React_Mockups/index.html",
+    "static/css/main.b8c54b53.chunk.css.map": "/React_Mockups/static/css/main.b8c54b53.chunk.css.map",
+    "static/js/2.05667297.chunk.js.LICENSE.txt": "/React_Mockups/static/js/2.05667297.chunk.js.LICENSE.txt",
+    "static/media/SignUpImage.0cea22d7.jpg": "/React_Mockups/static/media/SignUpImage.0cea22d7.jpg",
+    "static/media/google-icon.fb4ee34b.jpg": "/React_Mockups/static/media/google-icon.fb4ee34b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c85de42a.js",
+    "static/js/2.05667297.chunk.js",
+    "static/css/main.b8c54b53.chunk.css",
+    "static/js/main.d5fbb9da.chunk.js"
+  ]
+}
