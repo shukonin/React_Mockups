@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./fonts/icomoon.eot?61uvu7");
+  src: url("./fonts/icomoon.eot?61uvu7#iefix") format("embedded-opentype"),
+    url("./fonts/icomoon.ttf?61uvu7") format("truetype"),
+    url("./fonts/icomoon.woff?61uvu7") format("woff"),
+    url("./fonts/icomoon.svg?61uvu7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-bell:before {
+  content: "\e951";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-download:before {
+  content: "\e960";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-equalizer:before {
+  content: "\e992";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-clipboard:before {
+  content: "\e9b8";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
