@@ -5,7 +5,14 @@ const Home = () => {
   return (
     <>
       <h1>Check the following mockups developed with React:</h1>
-      <Link to="/React_Mockups/signup1">Sign up</Link>
+      <ul>
+        <li>
+          <Link to="/React_Mockups/signup1">Sign up</Link>
+        </li>
+        <li>
+          <Link to="/React_Mockups/dashboard">Dashboard</Link>
+        </li>
+      </ul>
     </>
   );
 };
