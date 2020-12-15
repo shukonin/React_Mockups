@@ -11,6 +11,8 @@ const DashboardContainer = styled.div`
   padding: 1rem 3rem;
 `;
 
-const ResumeContainer = styled.div``;
+const ResumeContainer = styled.div`
+  padding: 1rem 3rem;
+`;
 
 export { MainContainer, DashboardContainer, ResumeContainer };
