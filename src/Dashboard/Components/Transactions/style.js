@@ -11,7 +11,7 @@ const TransactionContainer = styled.div`
   &:hover {
     cursor: pointer;
     border-radius: 1rem;
-    background-color: lightgray;
+    background-color: #f0f0f0;
   }
 `;
 

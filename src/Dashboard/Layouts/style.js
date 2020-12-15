@@ -7,7 +7,7 @@ const MainContainer = styled.div`
 `;
 
 const DashboardContainer = styled.div`
-  background-color: lightgray;
+  background-color: #f4f4f4;
   padding: 1rem 3rem;
 `;
 
