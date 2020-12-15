@@ -7,8 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/signup1" component={Signup1} />
+        <Route exact path="/React_Mockups/" component={Home} />
+        <Route exact path="/React_Mockups/signup1" component={Signup1} />
       </Switch>
     </BrowserRouter>
   );
