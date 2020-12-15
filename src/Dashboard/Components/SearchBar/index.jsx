@@ -1,7 +1,15 @@
 import React from "react";
 
+import "../../Styles/fonts.css";
+import { SearchContainer, SearchIcon, SearchInput } from "./style";
+
 const SearchBar = () => {
-  return <h1>A</h1>;
+  return (
+    <SearchContainer>
+      <SearchIcon className="icon-search" />
+      <SearchInput type="text" placeholder="Search" />
+    </SearchContainer>
+  );
 };
 
 export { SearchBar };
