@@ -1,44 +1,16 @@
 import React from "react";
-
-import {
-  MainContainer,
-  GraphicSection,
-  FormSection,
-  LoginConectionContainer,
-  SignUpFormContainer,
-  SocialSignUpContainer,
-} from "./Layouts/App-style";
-
-import { CompanyLogo } from "./Components/Logos/";
-import { SignUpImage } from "./Components/Images/";
-import { LoginConection } from "./Components/Conections/";
-import { SignUpForm } from "./Components/Forms/";
-import { SignUpDivisor } from "./Components/Divisors";
-import { GoogleSignUpButton, FacebookSignUpButton } from "./Components/Buttons";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Home } from "./Home";
+import { Signup1 } from "./Signup_1/Signup1";
 
 function App() {
   return (
-    <div className="App">
-      <MainContainer>
-        <GraphicSection>
-          <CompanyLogo />
-          <SignUpImage />
-        </GraphicSection>
-        <FormSection>
-          <LoginConectionContainer>
-            <LoginConection />
-          </LoginConectionContainer>
-          <SignUpFormContainer>
-            <SignUpForm />
-          </SignUpFormContainer>
-          <SignUpDivisor />
-          <SocialSignUpContainer>
-            <GoogleSignUpButton />
-            <FacebookSignUpButton />
-          </SocialSignUpContainer>
-        </FormSection>
-      </MainContainer>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/signup1" component={Signup1} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
