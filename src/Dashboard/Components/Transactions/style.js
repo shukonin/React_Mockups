@@ -5,8 +5,8 @@ const Title = styled.h3``;
 const TransactionContainer = styled.div`
   display: flex;
   align-items: center;
-  margin: 0.5rem 0;
-  padding: 0.3rem;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
 
   &:hover {
     cursor: pointer;
@@ -16,7 +16,7 @@ const TransactionContainer = styled.div`
 `;
 
 const TransactionIcon = styled.i`
-  margin-right: 1rem;
+  margin: 0 1rem 0 0.5rem;
 `;
 
 const TransactionContent = styled.div`
