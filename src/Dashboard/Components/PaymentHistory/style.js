@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+const PaymentSection = styled.section``;
+
 const TitleContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -55,6 +57,7 @@ const PaymentStatValue = styled.p`
 `;
 
 export {
+  PaymentSection,
   Title,
   Settings,
   TitleContainer,

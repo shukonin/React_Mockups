@@ -12,6 +12,7 @@ import {
 import "../../Styles/fonts.css";
 
 import {
+  SalesSummaryContainer,
   Title,
   OptionsContainer,
   Option,
@@ -65,7 +66,7 @@ const OptionChart = () => {
 
 const SalesSummary = () => {
   return (
-    <>
+    <SalesSummaryContainer>
       <Title>Sales Summary</Title>
       <OptionsContainer>
         <Option active>Product</Option>
@@ -85,7 +86,7 @@ const SalesSummary = () => {
         </OptionTopData>
         <OptionChart />
       </OptionContent>
-    </>
+    </SalesSummaryContainer>
   );
 };
 

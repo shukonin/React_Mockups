@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SearchContainer = styled.div`
+const SearchContainer = styled.section`
   background-color: white;
   border-radius: 1rem;
   display: flex;

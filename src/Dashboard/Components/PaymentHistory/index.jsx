@@ -2,6 +2,7 @@ import React from "react";
 
 import "../../Styles/fonts.css";
 import {
+  PaymentSection,
   Title,
   TitleContainer,
   PaymentStatContainer,
@@ -27,7 +28,7 @@ const PaymentStat = (props) => {
 
 const PaymentHistory = () => {
   return (
-    <>
+    <PaymentSection>
       <TitleContainer>
         <Title>Payment History</Title>
         <Settings className="icon-equalizer" />
@@ -44,7 +45,7 @@ const PaymentHistory = () => {
         value="2,620.00"
         color="blue"
       />
-    </>
+    </PaymentSection>
   );
 };
 

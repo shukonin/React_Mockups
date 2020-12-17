@@ -9,10 +9,16 @@ const MainContainer = styled.div`
 const DashboardContainer = styled.div`
   background-color: #f4f4f4;
   padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 `;
 
 const ResumeContainer = styled.div`
   padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 `;
 
 export { MainContainer, DashboardContainer, ResumeContainer };

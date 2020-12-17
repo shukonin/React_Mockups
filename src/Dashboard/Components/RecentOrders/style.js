@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+const RecentOrdersContainer = styled.section``;
+
 const HeadingsContainer = styled.div`
   display: grid;
   grid-template-columns: 10% 40% 30% 15% 5%;
@@ -34,6 +36,7 @@ const OrderAttribute = styled.p`
 `;
 
 export {
+  RecentOrdersContainer,
   HeadingsContainer,
   Header,
   OrdersContainer,

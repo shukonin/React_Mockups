@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  RecentOrdersContainer,
   HeadingsContainer,
   Header,
   OrdersContainer,
@@ -24,7 +25,7 @@ const Order = (props) => {
 
 const RecentOrders = () => {
   return (
-    <>
+    <RecentOrdersContainer>
       <h3>Recent Orders</h3>
       <HeadingsContainer>
         <Header>ID</Header>
@@ -48,7 +49,7 @@ const RecentOrders = () => {
           amount="79"
         />
       </OrdersList>
-    </>
+    </RecentOrdersContainer>
   );
 };
 

@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+const TransactionSection = styled.section``;
+
 const Title = styled.h3``;
 
 const TransactionContainer = styled.div`
@@ -47,6 +49,7 @@ const TransactionDate = styled.p`
 const GoToIcon = styled.i``;
 
 export {
+  TransactionSection,
   Title,
   TransactionContainer,
   TransactionIcon,

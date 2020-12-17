@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+const SalesSummaryContainer = styled.section``;
+
 const Title = styled.h3`
   margin: 1rem 0 0;
 `;
@@ -72,6 +74,7 @@ const OptionChartContainer = styled.div`
 `;
 
 export {
+  SalesSummaryContainer,
   Title,
   OptionsContainer,
   Option,

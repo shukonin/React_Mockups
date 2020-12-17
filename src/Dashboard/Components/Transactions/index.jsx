@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  TransactionSection,
   Title,
   TransactionContainer,
   TransactionIcon,
@@ -30,12 +31,12 @@ const TransactionCard = (props) => {
 
 const Transactions = () => {
   return (
-    <>
+    <TransactionSection>
       <Title>Transactions</Title>
       <TransactionCard order="34786" date="May 18, 2020" />
       <TransactionCard order="34720" date="May 14, 2020" />
       <TransactionCard order="34716" date="May 12, 2020" />
-    </>
+    </TransactionSection>
   );
 };
 

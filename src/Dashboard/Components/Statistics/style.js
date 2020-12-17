@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+const StatisticsSection = styled.section``;
+
 const Title = styled.h3``;
 
 const StatisticsContainer = styled.div`
@@ -34,6 +36,7 @@ const BarChartType = styled.p`
 `;
 
 export {
+  StatisticsSection,
   Title,
   StatisticsContainer,
   StatisticsData,

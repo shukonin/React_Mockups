@@ -4,6 +4,7 @@ import OrdersBarChart from "../../Assets/bar-chart-blue.png";
 import ReturnsBarChart from "../../Assets/bar-chart.png";
 
 import {
+  StatisticsSection,
   Title,
   StatisticsContainer,
   StatisticsData,
@@ -14,7 +15,7 @@ import {
 
 const Statistics = () => {
   return (
-    <>
+    <StatisticsSection>
       <Title>Statistics</Title>
       <StatisticsContainer>
         <StatisticsData>
@@ -28,7 +29,7 @@ const Statistics = () => {
           <BarChartType>Returns</BarChartType>
         </StatisticsData>
       </StatisticsContainer>
-    </>
+    </StatisticsSection>
   );
 };
 
