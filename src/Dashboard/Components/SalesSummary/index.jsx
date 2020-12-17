@@ -7,6 +7,7 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
+  ResponsiveContainer,
 } from "recharts";
 
 import "../../Styles/fonts.css";
@@ -40,26 +41,26 @@ const OptionChart = () => {
 
   return (
     <OptionChartContainer>
-      <LineChart
-        width={700}
-        height={200}
-        data={data}
-        margin={{ top: 1, right: 10, left: 10, bottom: 5 }}
-      >
-        <XAxis dataKey="name" />
-        <YAxis />
-        <CartesianGrid strokeDasharray="3 3" />
-        <Tooltip />
-        <Legend />
-        <Line
-          type="monotone"
-          dataKey="sales"
-          stroke="#8884d8"
-          activeDot={{ r: 8 }}
-        />
-        <Line type="monotone" dataKey="orders" stroke="#82ca9d" />
-        <Line type="monotone" dataKey="profit" stroke="orange" />
-      </LineChart>
+      <ResponsiveContainer width="80%" height={200}>
+        <LineChart
+          data={data}
+          margin={{ top: 1, right: 10, left: 10, bottom: 5 }}
+        >
+          <XAxis dataKey="name" />
+          <YAxis />
+          <CartesianGrid strokeDasharray="3 3" />
+          <Tooltip />
+          <Legend />
+          <Line
+            type="monotone"
+            dataKey="sales"
+            stroke="#8884d8"
+            activeDot={{ r: 8 }}
+          />
+          <Line type="monotone" dataKey="orders" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="profit" stroke="orange" />
+        </LineChart>
+      </ResponsiveContainer>
     </OptionChartContainer>
   );
 };
