@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React_Mockups/static/css/main.cc111a0a.chunk.css",
-    "main.js": "/React_Mockups/static/js/main.4291169b.chunk.js",
-    "main.js.map": "/React_Mockups/static/js/main.4291169b.chunk.js.map",
+    "main.js": "/React_Mockups/static/js/main.094fba89.chunk.js",
+    "main.js.map": "/React_Mockups/static/js/main.094fba89.chunk.js.map",
     "runtime-main.js": "/React_Mockups/static/js/runtime-main.458f6603.js",
     "runtime-main.js.map": "/React_Mockups/static/js/runtime-main.458f6603.js.map",
-    "static/js/2.13a27a57.chunk.js": "/React_Mockups/static/js/2.13a27a57.chunk.js",
-    "static/js/2.13a27a57.chunk.js.map": "/React_Mockups/static/js/2.13a27a57.chunk.js.map",
+    "static/js/2.40962cfb.chunk.js": "/React_Mockups/static/js/2.40962cfb.chunk.js",
+    "static/js/2.40962cfb.chunk.js.map": "/React_Mockups/static/js/2.40962cfb.chunk.js.map",
     "index.html": "/React_Mockups/index.html",
     "static/css/main.cc111a0a.chunk.css.map": "/React_Mockups/static/css/main.cc111a0a.chunk.css.map",
-    "static/js/2.13a27a57.chunk.js.LICENSE.txt": "/React_Mockups/static/js/2.13a27a57.chunk.js.LICENSE.txt",
+    "static/js/2.40962cfb.chunk.js.LICENSE.txt": "/React_Mockups/static/js/2.40962cfb.chunk.js.LICENSE.txt",
     "static/media/Katina.8b3e655f.svg": "/React_Mockups/static/media/Katina.8b3e655f.svg",
     "static/media/SignUpImage.0cea22d7.jpg": "/React_Mockups/static/media/SignUpImage.0cea22d7.jpg",
     "static/media/google-icon.fb4ee34b.jpg": "/React_Mockups/static/media/google-icon.fb4ee34b.jpg",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.458f6603.js",
-    "static/js/2.13a27a57.chunk.js",
+    "static/js/2.40962cfb.chunk.js",
     "static/css/main.cc111a0a.chunk.css",
-    "static/js/main.4291169b.chunk.js"
+    "static/js/main.094fba89.chunk.js"
   ]
 }
