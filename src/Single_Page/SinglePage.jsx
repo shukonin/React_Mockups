@@ -2,7 +2,7 @@ import React from 'react';
 import './Styles/Styles.css';
 import { MainContainer, HeroContainer } from './Layouts/PageLayout';
 import { Header } from './Layouts/Header';
-import { HeroTitle, HeroUpperTitle, HorizontalLine } from './Components/Titles';
+import { HeroTitle, HeroUpperTitle } from './Components/Titles';
 
 const SinglePage = () => {
   return (
@@ -12,7 +12,6 @@ const SinglePage = () => {
         <div>
           <HeroUpperTitle />
           <HeroTitle />
-          <HorizontalLine />
         </div>
       </HeroContainer>
     </MainContainer>

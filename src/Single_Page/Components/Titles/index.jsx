@@ -6,15 +6,16 @@ import {
 } from './style';
 
 const HeroTitle = () => {
-  return <StyledHeroTitle>Let's Make Your Best Trip Ever</StyledHeroTitle>;
+  return (
+    <>
+      <StyledHeroTitle>Let's Make Your Best Trip Ever</StyledHeroTitle>
+      <StyledHorizontalLine />
+    </>
+  );
 };
 
 const HeroUpperTitle = () => {
   return <StyledUpperSubTitle>Your Travel Guide</StyledUpperSubTitle>;
 };
 
-const HorizontalLine = () => {
-  return <StyledHorizontalLine />;
-};
-
-export { HeroTitle, HeroUpperTitle, HorizontalLine };
+export { HeroTitle, HeroUpperTitle };
