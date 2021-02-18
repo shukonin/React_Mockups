@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -11,6 +11,9 @@ const Home = () => {
         </li>
         <li>
           <Link to="/React_Mockups/dashboard">Dashboard</Link>
+        </li>
+        <li>
+          <Link to="/React_Mockups/SinglePage">Single Page</Link>
         </li>
       </ul>
     </>
