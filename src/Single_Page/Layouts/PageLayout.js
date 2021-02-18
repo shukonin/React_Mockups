@@ -4,4 +4,9 @@ const MainContainer = styled.div`
   padding: 0 10rem;
 `;
 
-export { MainContainer };
+const HeroContainer = styled.div`
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+`;
+
+export { MainContainer, HeroContainer };
