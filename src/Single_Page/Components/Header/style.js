@@ -9,6 +9,7 @@ const StyledCompanyLogo = styled.img`
   width: 5rem;
   height: auto;
 `;
+const StyledNav = styled.nav``;
 const StyledHeaderList = styled.ul`
   list-style: none;
   display: flex;
@@ -25,6 +26,7 @@ const StyledHeaderListElement = styled.li`
 export {
   StyledHeader,
   StyledCompanyLogo,
+  StyledNav,
   StyledHeaderList,
   StyledHeaderListElement,
 };
