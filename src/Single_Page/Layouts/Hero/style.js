@@ -12,15 +12,17 @@ const HeroContainer = styled.div`
 const HeroButtons = styled.div`
   display: grid;
   grid-auto-flow: column;
+  grid-template-columns: 12rem;
 `;
 
 const HeroContent = styled.div`
   z-index: 1;
 `;
 const HeroRatings = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 9rem;
+  margin: 2rem 0 4rem;
 `;
 
 const ReviewsContainer = styled.div`
