@@ -11,10 +11,12 @@ import { HeroTitle, HeroUpperTitle } from '../../Components/Titles';
 import { LeftParagraph, NoteParagraph } from '../../Components/Paragraphs';
 import { MidRedButton, PlayVideoButton } from '../../Components/Buttons';
 import { HeartsRating } from '../../Components/Ratings';
+import { HeroBackgroundCircle } from '../../Components/BackgroundCircles';
 
 const Hero = () => {
   return (
     <HeroContainer>
+      <HeroBackgroundCircle />
       <HeroContent>
         <HeroUpperTitle />
         <HeroTitle />

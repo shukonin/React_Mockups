@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 const HeroContainer = styled.div`
+  position: relative;
   display: grid;
   grid-template-columns: 2fr 3fr;
   padding: 8rem 10rem 2rem;
   background-color: var(--lightblue);
+  overflow: hidden;
 `;
 
 const HeroButtons = styled.div`
@@ -12,7 +14,9 @@ const HeroButtons = styled.div`
   grid-auto-flow: column;
 `;
 
-const HeroContent = styled.div``;
+const HeroContent = styled.div`
+  z-index: 1;
+`;
 const HeroRatings = styled.div`
   display: flex;
   justify-content: space-between;

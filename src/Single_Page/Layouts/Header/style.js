@@ -8,6 +8,7 @@ const StyledHeader = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 0 10rem;
+  z-index: 10;
 `;
 const StyledCompanyLogo = styled.img`
   width: 5rem;
