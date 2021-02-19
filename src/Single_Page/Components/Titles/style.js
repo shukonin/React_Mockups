@@ -6,7 +6,7 @@ const StyledHeroTitle = styled.h1`
   margin: 0;
 `;
 const StyledUpperSubTitle = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
   color: var(--darkred);
   margin: 0 0 0.5rem;
