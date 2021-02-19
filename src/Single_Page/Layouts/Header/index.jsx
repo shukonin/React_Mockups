@@ -6,7 +6,7 @@ import {
   StyledHeaderList,
   StyledHeaderListElement,
 } from './style';
-import logo from '../../Assets/Company-logo.png';
+import logo from '../../Assets/Images/Company-logo.png';
 
 const Header = () => {
   return (

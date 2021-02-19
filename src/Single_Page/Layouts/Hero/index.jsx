@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   HeroButtons,
-  HeroCarousel,
   HeroContainer,
   HeroRatings,
   ReviewsContainer,
@@ -16,6 +15,7 @@ import { LeftParagraph, NoteParagraph } from '../../Components/Paragraphs';
 import { MidRedButton, PlayVideoButton } from '../../Components/Buttons';
 import { HeartsRating } from '../../Components/Ratings';
 import { HeroBackgroundCircle } from '../../Components/BackgroundCircles';
+import { HeroCarousel } from '../../Components/Carousels';
 
 const Hero = () => {
   return (
@@ -38,7 +38,7 @@ const Hero = () => {
         </HeroRatings>
         <TravelersTitle />
       </HeroContent>
-      <HeroCarousel></HeroCarousel>
+      <HeroCarousel />
     </HeroContainer>
   );
 };
