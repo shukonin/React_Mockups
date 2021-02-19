@@ -1,19 +1,15 @@
 import React from 'react';
 import './Styles/Styles.css';
-import { MainContainer, HeroContainer } from './Layouts/PageLayout';
+import './Styles/Fonts.css';
+import { MainContainer } from './Layouts/PageLayout';
 import { Header } from './Layouts/Header';
-import { HeroTitle, HeroUpperTitle } from './Components/Titles';
+import { Hero } from './Layouts/Hero';
 
 const SinglePage = () => {
   return (
     <MainContainer>
       <Header />
-      <HeroContainer>
-        <div>
-          <HeroUpperTitle />
-          <HeroTitle />
-        </div>
-      </HeroContainer>
+      <Hero />
     </MainContainer>
   );
 };
