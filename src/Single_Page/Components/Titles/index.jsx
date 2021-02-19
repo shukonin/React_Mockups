@@ -3,6 +3,7 @@ import {
   StyledHeroTitle,
   StyledUpperSubTitle,
   StyledHorizontalLine,
+  StyledTravelersTitle,
 } from './style';
 
 const HeroTitle = () => {
@@ -18,4 +19,8 @@ const HeroUpperTitle = () => {
   return <StyledUpperSubTitle>Your Travel Guide</StyledUpperSubTitle>;
 };
 
-export { HeroTitle, HeroUpperTitle };
+const TravelersTitle = () => {
+  return <StyledTravelersTitle>Travellers</StyledTravelersTitle>;
+};
+
+export { HeroTitle, HeroUpperTitle, TravelersTitle };

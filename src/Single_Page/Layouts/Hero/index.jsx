@@ -7,7 +7,11 @@ import {
   ReviewsContainer,
   HeroContent,
 } from './style';
-import { HeroTitle, HeroUpperTitle } from '../../Components/Titles';
+import {
+  HeroTitle,
+  HeroUpperTitle,
+  TravelersTitle,
+} from '../../Components/Titles';
 import { LeftParagraph, NoteParagraph } from '../../Components/Paragraphs';
 import { MidRedButton, PlayVideoButton } from '../../Components/Buttons';
 import { HeartsRating } from '../../Components/Ratings';
@@ -32,6 +36,7 @@ const Hero = () => {
             <NoteParagraph text="(2.5k reviews)" />
           </ReviewsContainer>
         </HeroRatings>
+        <TravelersTitle />
       </HeroContent>
       <HeroCarousel></HeroCarousel>
     </HeroContainer>

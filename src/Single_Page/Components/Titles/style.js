@@ -19,4 +19,22 @@ const StyledHorizontalLine = styled.hr`
   color: var(--darkblue);
 `;
 
-export { StyledHeroTitle, StyledUpperSubTitle, StyledHorizontalLine };
+const StyledTravelersTitle = styled.p`
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  margin: 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: lightslategray;
+`;
+
+export {
+  StyledHeroTitle,
+  StyledUpperSubTitle,
+  StyledHorizontalLine,
+  StyledTravelersTitle,
+};
