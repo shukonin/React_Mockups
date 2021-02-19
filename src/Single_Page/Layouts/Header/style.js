@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 10rem;
 `;
 const StyledCompanyLogo = styled.img`
   width: 5rem;
@@ -12,14 +16,16 @@ const StyledCompanyLogo = styled.img`
 const StyledNav = styled.nav``;
 const StyledHeaderList = styled.ul`
   list-style: none;
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
 `;
 const StyledHeaderListElement = styled.li`
-  margin: 0 1rem;
+  color: var(--darkblue);
 
   &:hover {
     cursor: pointer;
-    text-decoration: underline;
+    font-weight: bold;
   }
 `;
 
