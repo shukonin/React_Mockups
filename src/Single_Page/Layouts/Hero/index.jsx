@@ -22,7 +22,7 @@ const Hero = () => {
     <HeroContainer>
       <HeroBackgroundCircle />
       <HeroContent>
-        <HeroUpperTitle />
+        <HeroUpperTitle text="Your travel guide"/>
         <HeroTitle />
         <LeftParagraph text="Your ultimate travel companion. Carries all the information you need while travelling." />
         <HeroButtons>

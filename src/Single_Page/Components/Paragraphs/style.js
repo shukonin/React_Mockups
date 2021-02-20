@@ -10,4 +10,8 @@ const StyledNoteParagraph = styled.p`
   font-size: 0.8rem;
 `;
 
-export { StyledLeftParagraph, StyledNoteParagraph };
+const StyledSquareCardParagraph = styled.p`
+  font-size: 0.8rem;
+`;
+
+export { StyledLeftParagraph, StyledNoteParagraph, StyledSquareCardParagraph };

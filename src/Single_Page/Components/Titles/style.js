@@ -5,7 +5,7 @@ const StyledHeroTitle = styled.h1`
   color: var(--darkblue);
   margin: 0;
 `;
-const StyledUpperSubTitle = styled.h3`
+const StyledHeroUpperTitle = styled.h3`
   font-size: 1rem;
   text-transform: uppercase;
   color: var(--darkred);
@@ -17,6 +17,20 @@ const StyledHorizontalLine = styled.hr`
   height: 0px;
   margin: 0;
   color: var(--darkblue);
+`;
+
+const StyledSectionTitle = styled.h2`
+  font-size: 2.5rem;
+  color: var(--darkblue);
+  margin: 0;
+  text-transform: capitalize;
+`;
+const StyledSectionUpperTitle = styled(StyledHeroUpperTitle)`
+  text-transform: capitalize;
+`;
+
+const StyledSquareCardTitle = styled.h4`
+  text-transform: capitalize;
 `;
 
 const StyledTravelersTitle = styled.p`
@@ -34,7 +48,10 @@ const StyledTravelersTitle = styled.p`
 
 export {
   StyledHeroTitle,
-  StyledUpperSubTitle,
+  StyledHeroUpperTitle,
   StyledHorizontalLine,
+  StyledSectionTitle,
+  StyledSectionUpperTitle,
+  StyledSquareCardTitle,
   StyledTravelersTitle,
 };
