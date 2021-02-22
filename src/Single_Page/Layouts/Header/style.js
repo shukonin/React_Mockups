@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
+  position: absolute;
   box-sizing: border-box;
-  position: fixed;
   width: 100%;
   display: flex;
   align-items: center;
