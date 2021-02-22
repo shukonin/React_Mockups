@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/React_Mockups/static/css/main.a4dc4fec.chunk.css",
-    "main.js": "/React_Mockups/static/js/main.4f418072.chunk.js",
-    "main.js.map": "/React_Mockups/static/js/main.4f418072.chunk.js.map",
+    "main.css": "/React_Mockups/static/css/main.499815a8.chunk.css",
+    "main.js": "/React_Mockups/static/js/main.81bfd18b.chunk.js",
+    "main.js.map": "/React_Mockups/static/js/main.81bfd18b.chunk.js.map",
     "runtime-main.js": "/React_Mockups/static/js/runtime-main.458f6603.js",
     "runtime-main.js.map": "/React_Mockups/static/js/runtime-main.458f6603.js.map",
-    "static/js/2.ef42655b.chunk.js": "/React_Mockups/static/js/2.ef42655b.chunk.js",
-    "static/js/2.ef42655b.chunk.js.map": "/React_Mockups/static/js/2.ef42655b.chunk.js.map",
+    "static/js/2.f4d3ca7d.chunk.js": "/React_Mockups/static/js/2.f4d3ca7d.chunk.js",
+    "static/js/2.f4d3ca7d.chunk.js.map": "/React_Mockups/static/js/2.f4d3ca7d.chunk.js.map",
     "index.html": "/React_Mockups/index.html",
-    "static/css/main.a4dc4fec.chunk.css.map": "/React_Mockups/static/css/main.a4dc4fec.chunk.css.map",
-    "static/js/2.ef42655b.chunk.js.LICENSE.txt": "/React_Mockups/static/js/2.ef42655b.chunk.js.LICENSE.txt",
+    "static/css/main.499815a8.chunk.css.map": "/React_Mockups/static/css/main.499815a8.chunk.css.map",
+    "static/js/2.f4d3ca7d.chunk.js.LICENSE.txt": "/React_Mockups/static/js/2.f4d3ca7d.chunk.js.LICENSE.txt",
     "static/media/Katina.8b3e655f.svg": "/React_Mockups/static/media/Katina.8b3e655f.svg",
     "static/media/SignUpImage.0cea22d7.jpg": "/React_Mockups/static/media/SignUpImage.0cea22d7.jpg",
+    "static/media/cocktail.f44a467c.png": "/React_Mockups/static/media/cocktail.f44a467c.png",
     "static/media/Fonts.css": "/React_Mockups/static/media/coolicons.f23a3cc0.woff",
+    "static/media/destination.f4b7a5f0.png": "/React_Mockups/static/media/destination.f4b7a5f0.png",
     "static/media/google-icon.fb4ee34b.jpg": "/React_Mockups/static/media/google-icon.fb4ee34b.jpg",
-    "static/media/fonts.css": "/React_Mockups/static/media/icomoon.eca6889c.ttf"
+    "static/media/fonts.css": "/React_Mockups/static/media/icomoon.eca6889c.ttf",
+    "static/media/kitesurfing.fabaa5b6.png": "/React_Mockups/static/media/kitesurfing.fabaa5b6.png",
+    "static/media/landscape.651979c6.png": "/React_Mockups/static/media/landscape.651979c6.png",
+    "static/media/passport.b0610f5a.png": "/React_Mockups/static/media/passport.b0610f5a.png",
+    "static/media/travel-case.c97583f2.png": "/React_Mockups/static/media/travel-case.c97583f2.png",
+    "static/media/world-map.31795025.png": "/React_Mockups/static/media/world-map.31795025.png"
   },
   "entrypoints": [
     "static/js/runtime-main.458f6603.js",
-    "static/js/2.ef42655b.chunk.js",
-    "static/css/main.a4dc4fec.chunk.css",
-    "static/js/main.4f418072.chunk.js"
+    "static/js/2.f4d3ca7d.chunk.js",
+    "static/css/main.499815a8.chunk.css",
+    "static/js/main.81bfd18b.chunk.js"
   ]
 }
