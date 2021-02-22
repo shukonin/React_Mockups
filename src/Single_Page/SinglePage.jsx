@@ -5,6 +5,7 @@ import { MainContainer } from './Layouts/PageLayout';
 import { Header } from './Layouts/Header';
 import { Hero } from './Layouts/Hero';
 import { OurSupport } from './Layouts/OurSupport';
+import { ExclusiveOffer } from './Layouts/ExclusiveOffer/';
 
 const SinglePage = () => {
   return (
@@ -12,6 +13,7 @@ const SinglePage = () => {
       <Header />
       <Hero />
       <OurSupport />
+      <ExclusiveOffer />
     </MainContainer>
   );
 };

@@ -6,6 +6,7 @@ const StyledStandardButton = styled.button`
   font-size: 1.1rem;
   padding: 0.5rem 1rem;
   width: 10rem;
+  text-transform: capitalize;
 
   &:hover {
     cursor: pointer;
