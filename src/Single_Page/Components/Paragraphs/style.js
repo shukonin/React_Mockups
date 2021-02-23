@@ -14,4 +14,20 @@ const StyledSquareCardParagraph = styled.p`
   font-size: 0.8rem;
 `;
 
-export { StyledLeftParagraph, StyledNoteParagraph, StyledSquareCardParagraph };
+const StyledCommunityCardParagraph = styled.p`
+  font-size: 0.8rem;
+  color: var(--red);
+`;
+
+const StyledSpan = styled.span`
+  color: var(--red);
+  font-weight: 800;
+`;
+
+export {
+  StyledLeftParagraph,
+  StyledNoteParagraph,
+  StyledSquareCardParagraph,
+  StyledCommunityCardParagraph,
+  StyledSpan,
+};

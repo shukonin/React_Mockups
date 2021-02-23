@@ -12,6 +12,7 @@ const StyledWorldMapContainer = styled.div`
   margin: 5rem 0 0;
   display: flex;
   justify-content: center;
+  position: relative;
 `;
 
 const StyledWorldMapImage = styled.img`

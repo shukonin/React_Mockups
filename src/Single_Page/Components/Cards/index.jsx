@@ -1,7 +1,14 @@
 import React from 'react';
-import { StyledSquareCardContainer, StyledSquareCardIcon } from './style';
+import {
+  StyledSquareCardContainer,
+  StyledSquareCardIcon,
+  StyledCommunityReferenceCardContainer,
+} from './style';
 import { SquareCardTitle } from '../Titles';
-import { SquareCardParagraph } from '../Paragraphs';
+import {
+  SquareCardParagraph,
+  CommunityReferenceCardParagraph,
+} from '../Paragraphs';
 
 const SquareCard = (props) => {
   return (
@@ -13,4 +20,12 @@ const SquareCard = (props) => {
   );
 };
 
-export { SquareCard };
+const CommunityReferenceCard = (props) => {
+  return (
+    <StyledCommunityReferenceCardContainer top={props.top} left={props.left}>
+      <CommunityReferenceCardParagraph text={props.content} name={props.name} />
+    </StyledCommunityReferenceCardContainer>
+  );
+};
+
+export { SquareCard, CommunityReferenceCard };

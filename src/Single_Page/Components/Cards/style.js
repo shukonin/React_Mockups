@@ -23,4 +23,21 @@ const StyledSquareCardIcon = styled.i`
   font-size: 3rem;
 `;
 
-export { StyledSquareCardContainer, StyledSquareCardIcon };
+const StyledCommunityReferenceCardContainer = styled.div`
+  position: absolute;
+  width: 15vw;
+  height: auto;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px 1px lightgrey;
+  left: ${(props) => props.left + '%'};
+  top: ${(props) => props.top + '%'};
+  background-color: whitesmoke;
+  color: --var(darkred);
+`;
+
+export {
+  StyledSquareCardContainer,
+  StyledSquareCardIcon,
+  StyledCommunityReferenceCardContainer,
+};

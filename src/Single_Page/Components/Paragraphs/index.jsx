@@ -3,6 +3,8 @@ import {
   StyledLeftParagraph,
   StyledNoteParagraph,
   StyledSquareCardParagraph,
+  StyledCommunityCardParagraph,
+  StyledSpan,
 } from './style';
 
 const LeftParagraph = (props) => {
@@ -17,4 +19,19 @@ const SquareCardParagraph = (props) => {
   return <StyledSquareCardParagraph>{props.text}</StyledSquareCardParagraph>;
 };
 
-export { LeftParagraph, NoteParagraph, SquareCardParagraph };
+const CommunityReferenceCardParagraph = (props) => {
+  return (
+    <StyledCommunityCardParagraph>
+      {props.text}
+      <br />
+      <StyledSpan> -- {props.name}</StyledSpan>
+    </StyledCommunityCardParagraph>
+  );
+};
+
+export {
+  LeftParagraph,
+  NoteParagraph,
+  SquareCardParagraph,
+  CommunityReferenceCardParagraph,
+};
