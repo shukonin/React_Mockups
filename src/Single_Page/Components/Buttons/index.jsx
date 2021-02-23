@@ -2,6 +2,8 @@ import React from 'react';
 import {
   StyledMidRedButton,
   StyledPlayVideoButton,
+  StyledAppStoreButton,
+  StyledPlayStoreButton,
   StyledButtonIcon,
   StyledButtonText,
 } from './style';
@@ -19,4 +21,22 @@ const PlayVideoButton = () => {
   );
 };
 
-export { MidRedButton, PlayVideoButton };
+const AppStoreButton = () => {
+  return (
+    <StyledAppStoreButton>
+      <StyledButtonIcon className="ci-app_store" />
+      <StyledButtonText>App Store</StyledButtonText>
+    </StyledAppStoreButton>
+  );
+};
+
+const PlayStoreButton = () => {
+  return (
+    <StyledPlayStoreButton>
+      <StyledButtonIcon className="ci-play_store" />
+      <StyledButtonText>Google Play</StyledButtonText>
+    </StyledPlayStoreButton>
+  );
+};
+
+export { MidRedButton, PlayVideoButton, AppStoreButton, PlayStoreButton };

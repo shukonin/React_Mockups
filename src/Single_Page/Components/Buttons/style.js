@@ -36,8 +36,36 @@ const StyledPlayVideoButton = styled(StyledStandardButton)`
   }
 `;
 
+const StyledAppStoreButton = styled(StyledStandardButton)`
+  border: 1px solid var(--darkblue);
+  color: var(--white);
+  background-color: var(--darkblue);
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: white;
+    box-shadow: 10px 15px 40px 1px var(--darkblue);
+  }
+`;
+
+const StyledPlayStoreButton = styled(StyledStandardButton)`
+  font-size: 1rem;
+  border: 1px solid var(--darkblue);
+  color: var(--white);
+  background-color: var(--darkblue);
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: white;
+    box-shadow: 10px 15px 40px 1px var(--darkblue);
+  }
+`;
+
 const StyledButtonIcon = styled.i`
   margin: 0;
+  font-size: 1.5rem;
 `;
 
 const StyledButtonText = styled.p`
@@ -47,6 +75,8 @@ const StyledButtonText = styled.p`
 export {
   StyledMidRedButton,
   StyledPlayVideoButton,
+  StyledAppStoreButton,
+  StyledPlayStoreButton,
   StyledButtonIcon,
   StyledButtonText,
 };

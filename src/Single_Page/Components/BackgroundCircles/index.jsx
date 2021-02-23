@@ -1,8 +1,15 @@
 import React from 'react';
-import { StyledHeroBackgroundCircle } from './style';
+import {
+  StyledHeroBackgroundCircle,
+  StyledDownloadAppBackgroundCircle,
+} from './style';
 
 const HeroBackgroundCircle = () => {
   return <StyledHeroBackgroundCircle>.</StyledHeroBackgroundCircle>;
 };
 
-export { HeroBackgroundCircle };
+const DownloadAppBackgroundCircle = () => {
+  return <StyledDownloadAppBackgroundCircle />;
+};
+
+export { HeroBackgroundCircle, DownloadAppBackgroundCircle };
