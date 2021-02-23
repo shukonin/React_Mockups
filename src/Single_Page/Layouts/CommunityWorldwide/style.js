@@ -15,7 +15,7 @@ const StyledWorldMapContainer = styled.div`
 `;
 
 const StyledWorldMapImage = styled.img`
-  width: 100%;
+  width: 90%;
   height: auto;
 `;
 
