@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledOurSupportContainer = styled.section`
-  padding: 5rem 10rem;
+  padding: 5rem 10rem 2rem;
   background-color: var(--whiteblue);
 `;
 
@@ -16,7 +16,7 @@ const StyledTitlesContainer = styled.div`
 const StyledCardsContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin: 5rem 0;
+  margin: 5rem 0 0;
 `;
 
 export {
