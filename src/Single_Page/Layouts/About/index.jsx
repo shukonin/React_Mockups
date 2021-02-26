@@ -1,5 +1,6 @@
 import React from 'react';
 import { AboutList } from '../../Components/Lists';
+import { SusbcribeNewsletterForm } from '../../Components/Forms';
 
 import { StyledAboutContainer } from './style';
 
@@ -44,6 +45,7 @@ const About = () => {
       <AboutList list={companyList} />
       <AboutList list={travellersList} />
       <AboutList list={resourcesList} />
+      <SusbcribeNewsletterForm />
     </StyledAboutContainer>
   );
 };
