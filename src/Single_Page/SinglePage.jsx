@@ -9,6 +9,7 @@ import { ExclusiveOffer } from './Layouts/ExclusiveOffer/';
 import { CommunityWorldwide } from './Layouts/CommunityWorldwide';
 import { DownloadApp } from './Layouts/DownloadApp';
 import { About } from './Layouts/About';
+import { Footer } from './Layouts/Footer';
 
 const SinglePage = () => {
   return (
@@ -20,6 +21,7 @@ const SinglePage = () => {
       <CommunityWorldwide />
       <DownloadApp />
       <About />
+      <Footer />
     </MainContainer>
   );
 };
